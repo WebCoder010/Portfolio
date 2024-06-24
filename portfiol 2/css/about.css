@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header{
+    max-width: 1920px;
+    width: 100%;
+    height: 820px;
+    margin: auto;
+}
+
+.navbar-nav{
+    width: 944px;
+    display: flex;
+    justify-content: space-between;
+    margin: 32px auto ;
+
+}
+
+.nav_a1{
+    font-size: 18px;
+    font-weight: 700;
+    color: #070707;
+
+}
+
+.nav_a2{
+    font-size: 17px;
+    font-weight: 650;
+    color: rgba(7, 7, 7, 0.1);  
+}
+
+.line{
+    width: 940px;
+    margin: auto;
+    height: 1px;
+    background: linear-gradient(to right, #828282, #828282, #828282);
+}
+
+/* navbar tugadi */
+
+.asd{
+    max-width: 944px;
+    width: 100%;
+    margin: 50px auto;
+    justify-content: space-between;
+    align-items: end;
+
+}
+
+.header_h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: #070707;
+}
+
+.header_h5{
+    font-size: 16px;
+    font-weight: 600;
+    color: #070707;
+    margin: 0px 0px 0px 2px;
+}
+
+.header_text{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.header_h4{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.header_p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.header_text{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.header_img{
+    width: 343px;
+    height: 508px;
+    background: #000;
+    border-radius: 7px !important;
+}
+
+.header_col1{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+/* header end */
+/* section start */
+
+section{
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+}
+
+.number1{
+    width: 100%;
+    height: 506px;
+    margin: 50px auto;
+    background: #fff;
+
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    height: 506px;
+    text-align: center;
+}
+
+.section_h1{
+    font-size: 34px;
+    font-weight: 650;
+}
+
+.section_p{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+/* section number 1 tugadi */
+
+/* footer start */
+
+footer {
+    max-width: 1445px;
+    width: 100%;
+    height: 622px;
+    margin: auto;
+}
+
+.fot_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 280px;
+    width: 100%;
+    margin: 50px auto;
+}
+
+.fot_h3 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #070707;
+    margin: auto;
+}
+
+.fot_p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #070707;
+    margin: auto;
+    text-align: center;
+    width: 441px;
+}
+
+.fot_btn {
+    margin: auto;
+    width: 180px;
+    height: 42px;
+    background: #070707 !important;
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 20px !important;
+}
+
+.web_box {
+    margin: auto;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.web_img {
+    width: 39px;
+    height: 39px;
+    background: #fff;
+}
+
+.fot {
+    font-size: 14px;
+    font-weight: 500;
+    color: #828282;
+    text-align: center;
+    align-items: center;
+    width: 300px;
+    margin: 95px auto;
+}
+
+.fot_a1{
+    color: #828282;
+    text-decoration: none;
+}
+
+.fot_a1:hover{
+    color: #2d2a2a;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.asd {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 !important;
+}
+
